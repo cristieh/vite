@@ -1,0 +1,13 @@
+//open preview - opens in VS code, use - open browser -  to open in browser window instead. Port 5173 is the default Vite port
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "portAttributes": {
+  "5173": {
+    "label": "Vite port",
+      "onAutoForward": "openPreview"
+    }
+  },
+    "forwardPorts": [5173]
+}
